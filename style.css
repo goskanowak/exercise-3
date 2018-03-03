@@ -67,12 +67,15 @@ h1 {
     text-transform: uppercase;
     margin: 10px auto;
     text-shadow: 5px -5px 5px #000;
-     color: #fff;
+    color: #fff;
+    border-bottom: 2px solid red;
+    width: 90%;
 }
 
 h2 {
      text-shadow: 3px -3px 12px #000;
      color: #fff;
+    width: 90%;
 }
 
 .song {
@@ -91,4 +94,10 @@ h2 {
 
 .footer p {
     color: #fff;
+}
+
+@media (max-width: 767px) {
+    .container {
+        font-size: 15px;
+    }
 }

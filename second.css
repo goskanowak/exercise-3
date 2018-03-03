@@ -72,6 +72,8 @@ h1 {
     margin: 10px auto;
     text-shadow: 5px -5px 5px #000;
     color: #fff;
+       border-bottom: 2px solid red;
+    width: 90%;
 }
 
 h2 {
@@ -90,13 +92,23 @@ h2 {
     padding: 0 50px;
    
 }
+.video {
+    text-align: right;
+    width: 95%;
+}
 
 .footer {
     text-align: center;
-    padding: 10px;
+    padding: 20px;
     background-color: #313332;
 }
 
 .footer p {
     color: #fff;
+}
+
+@media (max-width: 767px) {
+    .container {
+        font-size: 15px;
+    }
 }
