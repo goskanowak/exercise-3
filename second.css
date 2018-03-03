@@ -20,7 +20,7 @@
     padding: 10px;
     font-size: 20px;
 	width: 100%;
-    max-width: 1400px;   
+    max-width: 1400px; 
 }
 
 header {
@@ -57,30 +57,38 @@ header>nav ul li a:hover {
 }
 
 .title {
-    background-color: #313332;
+    background-color: #313332; 
+    text-align: right;
+    padding: 0 50px;
 }
+
 .title, .song {
-       margin: 10px;
-}
+    margin: 10px;
+    
+} 
 
 h1 {
     text-transform: uppercase;
     margin: 10px auto;
     text-shadow: 5px -5px 5px #000;
-     color: #fff;
+    color: #fff;
 }
 
 h2 {
-     text-shadow: 3px -3px 12px #000;
-     color: #fff;
+    text-shadow: 3px -3px 12px #000;
+    color: #fff;
+    text-transform: capitalize;
 }
 
 .song {
     background-color: #ccc;
+     text-align: right;
+    padding: 0 50px;
 }
 
 .song .container:nth-child(even){
     padding: 0 50px;
+   
 }
 
 .footer {
