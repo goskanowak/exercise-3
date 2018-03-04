@@ -1,10 +1,16 @@
+$dark_gray: #313332;
+$white: #fff;
+$black: #000;
+$red: #800000;
+$light_gray: #ccc;
+
 @import url('https://fonts.googleapis.com/css?family=Poppins:400,600,700&subset=latin-ext');
 
 * {
     margin: 0;
     padding: 0;
     font-family: 'Poppins', sans-serif;
-    color: #313332;
+    color: $dark_gray;
     box-sizing: border-box;
 }
 
@@ -24,7 +30,7 @@
 }
 
 header {
-    background-color: #313332;
+    background-color: $dark_gray;
     width: 100%; 
 }
 
@@ -41,45 +47,45 @@ header>nav ul>li>a {
     padding: 5px 25px;
     display: block;
     text-decoration: none;
-    color: #fff;
+    color: $white;
     text-transform: uppercase;
     padding: 0 50px;   
 }
 
 header>nav ul li a:hover {
-    color: #313332;
+    color: $dark_gray;
     font-weight: 900;
-    text-shadow: 1px -1px 2px #313332;
-    background-color: #fff;
+    text-shadow: 1px -1px 2px $dark_gray;
+    background-color: $white;
     border-bottom-left-radius: 50px;
     border-top-right-radius: 50px;
-    box-shadow: 5px -3px 15px #000;
+    box-shadow: 5px -3px 15px $black;
 }
 
 .title {
-    background-color: #313332;
+    background-color: $dark_gray;
 }
 .title, .song {
-       margin: 10px;
+    margin: 10px;
 }
 
 h1 {
     text-transform: uppercase;
     margin: 10px auto;
-    text-shadow: 5px -5px 5px #000;
-    color: #fff;
-    border-bottom: 2px solid red;
+    text-shadow: 5px -5px 5px $black;
+    color: $white;
+    border-bottom: 2px solid $red;
     width: 90%;
 }
 
 h2 {
-     text-shadow: 3px -3px 12px #000;
-     color: #fff;
+    text-shadow: 3px -3px 12px $black;
+    color: $white;
     width: 90%;
 }
 
 .song {
-    background-color: #ccc;
+    background-color: $light_gray;
 }
 
 .song .container:nth-child(even){
@@ -89,11 +95,11 @@ h2 {
 .footer {
     text-align: center;
     padding: 10px;
-    background-color: #313332;
+    background-color: $dark_gray;
 }
 
 .footer p {
-    color: #fff;
+    color: $white;
 }
 
 @media (max-width: 767px) {
